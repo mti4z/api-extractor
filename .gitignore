@@ -1,0 +1,23 @@
+# Variables de entorno y credenciales (NUNCA subir)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Logs
+*.log
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
